@@ -8,11 +8,8 @@ public class UpdClient
     public static void main(String[] args) throws Exception
     {
         DatagramSocket ds = new DatagramSocket();
-        /*
-        The program would not function correctly when the commented statement below is used. For reference, I have included both statements in the code. The first one works, the second does not.
-         */
+
         InetAddress ia = InetAddress.getLocalHost();
-        //InetAddress ia = InetAddress.getByName("zeus.cs.txstate.edu");
 
         Scanner s = new Scanner(System.in);
 
